@@ -5,6 +5,7 @@ import MovieList from "./components/MovieList";
 import Navbar from "./components/Navbar";
 import NumResults from "./components/NumResults";
 import Search from "./components/Search";
+import StarRating from "./components/StarRating";
 import WatchedMovieList from "./components/WatchedMovieList";
 import WatchedSummary from "./components/WatchedSummary";
 
@@ -76,6 +77,8 @@ export default function App() {
           </>
         </Box>
       </Main>
+
+      <StarRating maxRating={10} />
     </>
   );
 }
