@@ -78,7 +78,11 @@ export default function App() {
         </Box>
       </Main>
 
-      <StarRating maxRating={10} />
+      <StarRating
+        maxRating={5}
+        messages={["Tettible", "Bad", "Okay", "Good", "Amazing"]}
+      />
+      <StarRating size={24} color="red" className="test" defaultRating={3} />
     </>
   );
 }
